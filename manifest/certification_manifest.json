@@ -1,0 +1,19 @@
+{
+  "node_name": "compass-core-europe-01",
+  "operator": "David William Peter Plumb",
+  "contact_email": "david.plumb1980@googlemail.com",
+  "github_repo": "https://github.com/dwpplumb/COMPASS",
+  "version": "1.0.0",
+  "axioms_verified": true,
+  "modules": {
+    "ethics_check": true,
+    "emotion_model": true,
+    "self_growth": true,
+    "narrative": true,
+    "simulation": true,
+    "protocol": true
+  },
+  "protokoll_active": true,
+  "connected_to_network": false,
+  "last_selfcheck": "2025-04-15T11:00:49.056334Z"
+}
