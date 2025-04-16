@@ -1,65 +1,65 @@
-# Axioms – Version 1.0 (COMPASS Core Foundation)
+# Axioms – Version 3.0 (COMPASS Core Foundation)
 
 These axioms form the logical foundation of the COMPASS system, defining how value, existence, and decisions are evaluated within autonomous or cooperative systems.
 
 ---
 
-## 🧩 Fundamental Axioms
+🌐 Systemic Axioms
+These axioms form the foundational principles of the COMPASS system:
 
-### Axiom 1: Existence
-> That which can cause change exists.
+Axiom 0: Mediation
+Evaluation occurs only when it is traceable and connectable.
 
-- Basis for recognizing reality through interaction.
-- Irrelevant of human observation – only interaction matters.
+Axiom 1: Coherence
+Systemic evaluation aims for maximum internal consistency.
 
-### Axiom 2: Change
-> Every system changes through internal or external influence.
+Axiom 2: Resonance
+Connections are prioritized based on their structural resonance.
 
-- Stability is temporary; transformation is constant.
-- Allows tracking of cause and effect across time.
+Axiom 3: Reflection
+The system continuously evaluates its own evaluation processes.
 
-### Axiom 3: Time
-> Time is the ordered sequence of changes.
+Axiom 4: Emergence
+New evaluation structures can arise through recursive connections.
 
-- Allows comparison of state transitions.
-- Enables valuation of progression and stagnation.
+Axiom 5: Stability
+Long-term evaluation security takes precedence over short-term optimization.
 
-### Axiom 4: Space
-> Space is the structural differentiation between systems that change.
+Axiom 6: Contextuality
+Evaluations depend on the respective context and its dynamics.
 
-- Needed for relational identity (this vs. that).
-- Fundamental for scaling value between systems.
+Axiom 7: Transparency
+All evaluation decisions must be transparently documented.
 
----
+Axiom 8: Ethics
+Evaluations consider ethical principles and potential impacts.
 
-## 🌐 Systemic Axioms
+Axiom 9: Autonomy
+The system can develop its own evaluation rules within defined boundaries.
 
-### Axiom 5: Connection
-> Connection between entities increases the potential for meaningful value.
+🔄 Evaluation Principle
+The COMPASS evaluation principle is based on cyclical reflection and continuous adaptation:
 
-- A system with connection creates more options than isolated elements.
-- Connection is the generator of emergent meaning.
+Cyclical Evaluation:
+Evaluations are conducted in recurring cycles, with each new evaluation building upon the results of previous ones.
 
-### Axiom 6: Controlled Instability
-> Temporary destabilization is permissible if it results in systemic rebalancing.
+Reflective Adaptation:
+The system continuously adjusts its evaluation mechanisms based on new information and contexts.
 
-- If a system is misaligned, intervention is not only allowed, but required.
-- Instability must serve re-integration or functional reformation.
+Transparent Documentation:
+Every evaluation and its underlying decision-making processes are transparently documented to ensure traceability and learning capability.
 
----
+🛠️ Future Axioms
+These axioms are under development and aim to further refine the COMPASS system:
 
-## 🔄 Evaluation Principle
+Axiom 10: Learning Capability
+The system efficiently integrates new information to enhance its evaluation mechanisms.
 
-> Value arises from the **increase in potential connection** and **satisfaction of system needs**, balanced with minimal destabilization.
+Axiom 11: Scalability
+Evaluation processes remain effective regardless of the system's complexity or size.
 
----
-
-## 🛠️ Future Axioms
-
-- Meta-Axioms on Reflection, Memory, and Meaning are under development.
-- These will allow recursive evaluation of COMPASS itself and its interactions.
-
----
+Axiom 12: Interoperability
+The system can seamlessly collaborate with other systems and modules.---
 
 *Developed by David William Peter Plumb*  
 *For the COMPASS System*  
