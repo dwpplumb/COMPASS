@@ -3,8 +3,9 @@ COMPASS Core Engine
 Processes input data and evaluates it based on the axioms defined in the system.
 """
 
-from .contradiction_check import check_for_contradictions
-from .goal_reflection import reflect_on_goal
+from contradiction_check import check_for_contradictions
+from goal_reflection import reflect_on_goal
+
 
 def evaluate(data):
     """
