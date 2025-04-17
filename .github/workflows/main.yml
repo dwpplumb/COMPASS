@@ -25,4 +25,4 @@ jobs:
 
     - name: Run COMPASS
       run: |
-        python core/main.py
+        python core/compass_engine.py
