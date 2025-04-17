@@ -5,16 +5,23 @@ Analysiert die Ausrichtung eines Ziels mit dem internen Zielmodell des Systems u
 
 import os
 from gensim.models import KeyedVectors
+from core.logger_setup import setup_logger
+
+# Initialisiere den Logger
+logger = setup_logger(__name__, log_file='logs/compass.log')
 
 # Lade das Wortvektormodell
 model_path = os.path.join("modules", "wordvectors", "GoogleNews-vectors-negative300.bin")
 model = None
 
-if os.path.exists(model_path):
-    print(f"🔍 Lade lokales Modell: {model_path}")
-    model = KeyedVectors.load_word2vec_format(model_path, binary=True)
-else:
-    print("⚠️ Lokales Modell nicht gefunden. Bitte sicherstellen, dass das Modell vorhanden ist.")
+try:
+    if os.path.exists(model_path):
+        logger.info(f"Lade lokales Modell: {model_path}")
+        model = KeyedVectors.load_word2vec_format(model_path, binary=True)
+    else:
+        raise FileNotFoundError(f"Modellpfad nicht gefunden: {model_path}")
+except Exception as e:
+    logger.error(f"Fehler beim Laden des Modells: {e}")
     model = None
 
 def reflect_on_goal(data):
@@ -27,6 +34,7 @@ def reflect_on_goal(data):
     user_goal = data.get("goal")
 
     if not user_goal or model is None:
+        logger.warning("Kein Ziel angegeben oder Modell nicht verfügbar.")
         return {
             "alignment": "neutral",
             "meta_analysis": {
@@ -48,9 +56,14 @@ def reflect_on_goal(data):
         if user_term in model:
             term_similarities = [model.similarity(user_term, goal) for goal in system_goals if goal in model]
             if term_similarities:
-                similarities.append(max(term_similarities))
+                max_sim = max(term_similarities)
+                similarities.append(max_sim)
+                logger.debug(f"Ähnlichkeit für '{user_term}': {max_sim}")
+        else:
+            logger.debug(f"Begriff '{user_term}' nicht im Modell gefunden.")
 
     if not similarities:
+        logger.info("Keine semantische Ähnlichkeit zu Systemzielen gefunden.")
         return {
             "alignment": "neutral",
             "meta_analysis": {
@@ -86,7 +99,7 @@ def reflect_on_goal(data):
         goal_type = "structural"
         emotional_connotation = "neutral"
 
-    return {
+    result = {
         "alignment": alignment,
         "meta_analysis": {
             "reason": f"Maximale Ähnlichkeit zu Systemzielen: {max_similarity:.2f}",
@@ -95,3 +108,6 @@ def reflect_on_goal(data):
             "emotional_connotation": emotional_connotation
         }
     }
+
+    logger.info(f"Reflexionsergebnis: {result}")
+    return result
