@@ -4,7 +4,7 @@ Processes input data and evaluates it based on the axioms defined in the system.
 """
 
 import os
-from contradiction_check import check_for_contradictions
+from core.contradiction_check import check_for_contradictions
 from core.goal_reflection_advanced import reflect_on_goal
 from core.logger_setup import setup_logger
 
