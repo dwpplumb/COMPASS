@@ -43,10 +43,10 @@ def reflect_on_goal(data):
         return "neutral"
 
     # Unterstützt Listen und einzelne Begriffe
-if isinstance(user_goal, str) and ',' in user_goal:
-    user_terms = [t.strip() for t in user_goal.split(',')]
-else:
-    user_terms = user_goal if isinstance(user_goal, list) else [user_goal]
+    if isinstance(user_goal, str) and ',' in user_goal:
+        user_terms = [t.strip() for t in user_goal.split(',')]
+    else:
+        user_terms = user_goal if isinstance(user_goal, list) else [user_goal]
 
     similarities = []
     for user_term in user_terms:
@@ -61,10 +61,9 @@ else:
 
     max_similarity = max(similarities)
 
-if max_similarity > 0.75:
-    return "aligned"
-elif max_similarity > 0.5:
-    return "neutral"
-else:
-    return "misaligned"
-
+    if max_similarity > 0.75:
+        return "aligned"
+    elif max_similarity > 0.5:
+        return "neutral"
+    else:
+        return "misaligned"
