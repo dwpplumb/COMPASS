@@ -13,6 +13,11 @@ from modules.language_model.reflection_language import interpret_axiom_profile
 logger = setup_logger(__name__, log_file='logs/compass.log')
 
 class ReflexiveChat:
+    def run():
+        prompt = input("Gib deine lokale Anfrage ein: ")
+        # Hier kannst du deine lokale Logik implementieren
+        print(f"Lokale Antwort auf: {prompt}")
+        
     def __init__(self):
         self.history = []
         logger.info("Reflexiver Chat initialisiert.")

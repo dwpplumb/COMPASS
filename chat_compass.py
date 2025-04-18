@@ -1,5 +1,5 @@
 import os
-from core.reflexive_chat import ReflexiveChat
+from COMPASS.core.reflexive_chat_core import ReflexiveChat
 
 def chat_loop():
     print("=== 🧭 COMPASS Reflexiver Ziel-Dialog ===")
