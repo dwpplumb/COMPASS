@@ -13,20 +13,14 @@ logger = logging.getLogger(__name__)
 
 # Initialisiere semantisches Modell
 MODEL = None
-MODEL_PATH_DE_TXT = os.path.join("modules", "wordvectors", "de_fasttext.vec")
-MODEL_PATH_DE_BIN = os.path.join("modules", "wordvectors", "de_fasttext.kv")
+MODEL_PATH = os.path.join("modules", "wordvectors", "GoogleNews-vectors-negative300.bin")
 
 try:
-    if os.path.exists(MODEL_PATH_DE_BIN):
-        logger.info("Lade deutsches Modell (binär)")
-        MODEL = KeyedVectors.load(MODEL_PATH_DE_BIN)
-    elif os.path.exists(MODEL_PATH_DE_TXT):
-        logger.info("Lade deutsches Modell (Text) – kann dauern...")
-        MODEL = KeyedVectors.load_word2vec_format(MODEL_PATH_DE_TXT)
-        logger.info("Speichere Modell für schnelleren Zugriff")
-        MODEL.save(MODEL_PATH_DE_BIN)
+    if os.path.exists(MODEL_PATH):
+        logger.info("Lade GoogleNews Word2Vec-Modell lokal")
+        MODEL = KeyedVectors.load_word2vec_format(MODEL_PATH, binary=True)
     else:
-        logger.warning("Kein deutsches Modell gefunden – lade Fallback GloVe")
+        logger.warning("Kein lokales Modell gefunden, nutze GloVe 50")
         MODEL = gensim_load("glove-wiki-gigaword-50")
 except Exception as e:
     logger.error(f"Fehler beim Laden des Sprachmodells: {e}")

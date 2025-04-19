@@ -4,7 +4,7 @@ Erzeugt eine hierarchische Bewertungsmatrix entlang der Axiome und Subaxiome bas
 """
 
 from typing import Dict
-from modules.language_model.language_grounding import mean_vector, similarity
+from COMPASS.modules.language_model.language_grounding_en import mean_vector, similarity
 from modules.language_model.axiom_vectors import AXIOM_VECTORS
 
 

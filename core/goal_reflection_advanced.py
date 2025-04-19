@@ -30,7 +30,19 @@ def reflect_on_goal(data):
     :param data: dict mit dem Schlüssel 'goal'
     :return: dict mit Bewertung und Meta-Analyse
     """
-    system_goals = ["connect", "stabilize", "harmonize"]
+    system_goals = [
+        "connect",         # Verbindung
+        "stabilize",       # Stabilität
+        "harmonize",       # Ausgleich
+        "structure",       # Ordnung / Gliederung
+        "integration",     # Einbindung
+        "resilience",      # Anpassungsfähigkeit bei Erhalt
+        "ethics",          # systemische Bewertung
+        "awareness",       # Kontextbewusstsein
+        "balance",         # Gleichgewicht
+        "reflection"       # Selbstbezug / Metabewertung
+    ]
+
     user_goal = data.get("goal")
 
     if not user_goal or model is None:
