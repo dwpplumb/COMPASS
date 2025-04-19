@@ -8,7 +8,7 @@ from gensim.models import KeyedVectors
 from core.logger_setup import setup_logger
 
 # Initialisiere den Logger
-logger = setup_logger(__name__, log_file='logs/compass.log')
+logger = setup_logger(__name__)
 
 # Lade das Wortvektormodell
 model_path = os.path.join("modules", "wordvectors", "GoogleNews-vectors-negative300.bin")

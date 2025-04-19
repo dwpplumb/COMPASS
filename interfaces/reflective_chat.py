@@ -10,7 +10,7 @@ from core.logger_setup import setup_logger
 from modules.response_language.response_language import generate_response_text
 from modules.response_language.natural_response_model import generate_natural_response
 
-logger = setup_logger(__name__, log_file='logs/compass.log')
+logger = setup_logger(__name__)
 
 
 class ReflexiveChat:

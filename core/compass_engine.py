@@ -9,7 +9,7 @@ from core.goal_reflection_advanced import reflect_on_goal
 from core.logger_setup import setup_logger
 
 # Initialisiere den Logger mit Fallback
-logger = setup_logger(__name__, log_file='logs/compass.log')
+logger = setup_logger(__name__)
 
 def evaluate(data):
     """

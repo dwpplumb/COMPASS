@@ -17,6 +17,15 @@ RUNTIME_DIR = os.path.join(SSD_DIR, 'runtime')
 CONFIG_DIR = os.path.join(SSD_DIR, 'config')
 ARCHIVE_DIR = os.path.join(HDD_DIR, 'archive')
 BACKUP_DIR = os.path.join(HDD_DIR, 'backups')
+LOG_DIR = os.path.join(HDD_DIR, 'logs')
+DATA_DIR = os.path.join(HDD_DIR, 'data')
+CMB_RAW_DIR = os.path.join(DATA_DIR, 'cmb', 'raw')
+CMB_PROCESSED_DIR = os.path.join(DATA_DIR, 'cmb', 'processed')
+CMB_META_DIR = os.path.join(DATA_DIR, 'cmb', 'meta')
+DATABASE_DIR = os.path.join(HDD_DIR, 'db')  # zukünftige Datenbankablage
+ONLINE_CACHE_DIR = os.path.join(HDD_DIR, 'webcache')  # ggf. temporäre Onlinedaten
+
+
 
 def ensure_directory(path):
     """Stellt sicher, dass das Verzeichnis existiert."""
@@ -61,3 +70,9 @@ def log_fallback(message):
     log_file = os.path.join(FALLBACK_DIR, f"fallback_{timestamp}.log")
     with open(log_file, 'a', encoding='utf-8') as f:
         f.write(f"{timestamp} - {message}\n")
+
+def get_daily_log_dir():
+    today = datetime.now().strftime('%Y-%m-%d')
+    path = os.path.join(RUNTIME_DIR, 'logs', today)
+    ensure_directory(path)
+    return path
