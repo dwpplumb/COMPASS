@@ -1,7 +1,7 @@
 # modules/response_language/natural_response_model.py
 
 from transformers import AutoTokenizer, AutoModelForCausalLM
-import torch
+import torch # type: ignore
 import os
 
 # Modellname kann angepasst werden (hier kleines Modell für Testzwecke)
