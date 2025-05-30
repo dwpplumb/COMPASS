@@ -1,5 +1,8 @@
 # COMPASS
 
+[![Open Collective](https://img.shields.io/opencollective/all/compass?label=Backers&color=blue)](https://opencollective.com/compass)
+[![GitHub stars](https://img.shields.io/github/stars/dwpplumb/COMPASS?style=social)](https://github.com/dwpplumb/COMPASS)
+
 COMPASS is an axiomatic reasoning engine and value system based on universal logical and physical principles. The core goal is to create a system that can evaluate input, generate reasoning paths, and provide structured outputs based on fundamental axioms. COMPASS is modular, extensible, and designed for integration with both classical and LLM-driven architectures (e.g., via Metacortex or Ollama backends).
 
 ## Features
@@ -71,4 +74,8 @@ MIT License (recommendation)
 
 ## Contact
 
-Project by [dwpplumb](https://github.com/dwpplumb) / COMPASS System Architecture
+
+Project by David Plumb / COMPASS System Architecture
+
+- [GitHub Repository](https://github.com/dwpplumb/COMPASS)
+- [OpenCollective (Support & Community)](https://opencollective.com/compass)
