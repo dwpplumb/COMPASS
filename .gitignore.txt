@@ -1,2 +1,0 @@
-modules/wordvectors/GoogleNews-vectors-negative300.bin
-.venv/
