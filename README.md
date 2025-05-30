@@ -80,4 +80,5 @@ Project by David Plumb / COMPASS System Architecture
 - [GitHub Repository](https://github.com/dwpplumb/COMPASS)
 - [OpenCollective (Support & Community)](https://opencollective.com/compass)
 
-**Project Board:** [COMPASS GitHub Project]((https://github.com/users/dwpplumb/projects/4/))
+**Project Board:** [COMPASS GitHub Project](https://github.com/dwpplumb/COMPASS/projects)
+
