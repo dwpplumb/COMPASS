@@ -1,0 +1,193 @@
+[
+    {
+        "id": "A1",
+        "type": "axiom",
+        "title": "Existenz",
+        "formal": "Etwas existiert, wenn es innerhalb eines strukturell wirksamen Systems Wirkung entfalten kann.",
+        "semantic_vector": [
+            "existenz",
+            "wirkung",
+            "struktur",
+            "präsenz"
+        ],
+        "connections": [
+            "A2",
+            "A5",
+            "A4",
+            "QG-1"
+        ],
+        "lang": "de",
+        "last_modified": "2025-05-11T13:42:08.954571Z",
+        "edited_by": "system",
+        "subtype": "unclassified",
+        "active": true,
+        "source": "compass_axioms_classic.json"
+    },
+    {
+        "id": "A2",
+        "type": "axiom",
+        "title": "Veränderung",
+        "formal": "Veränderung ist die systemische Rekonfiguration von Zuständen innerhalb eines strukturell wirksamen Raumes.",
+        "semantic_vector": [
+            "wandel",
+            "rekonfiguration",
+            "zustand",
+            "system"
+        ],
+        "connections": [
+            "A1",
+            "A3",
+            "A5",
+            "QG-2"
+        ],
+        "lang": "de",
+        "last_modified": "2025-05-11T13:42:08.954571Z",
+        "edited_by": "system",
+        "subtype": "unclassified",
+        "active": true,
+        "source": "compass_axioms_classic.json"
+    },
+    {
+        "id": "A3",
+        "type": "axiom",
+        "title": "Zeit",
+        "formal": "Zeit ist die systemische Ordnung von Veränderung entlang strukturwirksamer Übergänge.",
+        "semantic_vector": [
+            "zeit",
+            "ordnung",
+            "veränderung",
+            "struktur"
+        ],
+        "connections": [
+            "A2",
+            "A6",
+            "QG-3"
+        ],
+        "lang": "de",
+        "last_modified": "2025-05-11T13:42:08.954571Z",
+        "edited_by": "system",
+        "subtype": "unclassified",
+        "active": true,
+        "source": "compass_axioms_classic.json"
+    },
+    {
+        "id": "A4",
+        "type": "axiom",
+        "title": "Raum",
+        "formal": "Raum ist die strukturwirksame Beziehungsmatrix, in der Zustände voneinander unterscheidbar, übertragbar und verbindbar sind.",
+        "semantic_vector": [
+            "raum",
+            "struktur",
+            "unterscheidung",
+            "beziehung"
+        ],
+        "connections": [
+            "A1",
+            "A2",
+            "A5",
+            "QG-4"
+        ],
+        "lang": "de",
+        "last_modified": "2025-05-11T13:42:08.954571Z",
+        "edited_by": "system",
+        "subtype": "unclassified",
+        "active": true,
+        "source": "compass_axioms_classic.json"
+    },
+    {
+        "id": "A5",
+        "type": "axiom",
+        "title": "Verbindung",
+        "formal": "Systemischer Mehrwert entsteht durch Verbindung zwischen Entitäten, wenn diese Verbindung eine zusätzliche Bewertungsstruktur erzeugt, die über die Einzelelemente hinausgeht.",
+        "semantic_vector": [
+            "verbindung",
+            "mehrwert",
+            "kopplung",
+            "bewertung"
+        ],
+        "connections": [
+            "A1",
+            "A2",
+            "A4",
+            "A6",
+            "QG-5",
+            "R1-T"
+        ],
+        "lang": "de",
+        "last_modified": "2025-05-11T13:42:08.954571Z",
+        "edited_by": "system",
+        "subtype": "unclassified",
+        "active": true,
+        "source": "compass_axioms_classic.json"
+    },
+    {
+        "id": "A6",
+        "type": "axiom",
+        "title": "Rekonfiguration",
+        "formal": "Rekonfiguration ist die zulässige temporäre Destabilisierung eines Systems, wenn dadurch eine Struktur mit höherem systemischem Verbindungswert entstehen kann.",
+        "semantic_vector": [
+            "rekonfiguration",
+            "instabilität",
+            "strukturwandel"
+        ],
+        "connections": [
+            "A2",
+            "A5",
+            "A7",
+            "QG-6",
+            "R1-M"
+        ],
+        "lang": "de",
+        "last_modified": "2025-05-11T13:42:08.954571Z",
+        "edited_by": "system",
+        "subtype": "unclassified",
+        "active": true,
+        "source": "compass_axioms_classic.json"
+    },
+    {
+        "id": "A7",
+        "type": "axiom",
+        "title": "Reflexion",
+        "formal": "Reflexion ist die systemische Rückkopplung eines Systems auf seine eigenen Bewertungs-, Ziel- oder Strukturprozesse mit dem Ziel der Verbesserung, Korrektur oder Erweiterung.",
+        "semantic_vector": [
+            "reflexion",
+            "rückkopplung",
+            "bewertung",
+            "entwicklung"
+        ],
+        "connections": [
+            "A2",
+            "A6",
+            "QG-7",
+            "ZP-009"
+        ],
+        "lang": "de",
+        "last_modified": "2025-05-11T13:42:08.954571Z",
+        "edited_by": "system",
+        "subtype": "unclassified",
+        "active": true,
+        "source": "compass_axioms_classic.json"
+    },
+    {
+        "id": "A8",
+        "type": "axiom",
+        "title": "Metareflexion",
+        "formal": "Ein System ist metareflexiv, wenn es strukturelle Erweiterungen aus eigenen Widersprüchen oder Bewertungsgrenzen hervorzubringen vermag.",
+        "semantic_vector": [
+            "metareflexion",
+            "strukturwandel",
+            "selbsterweiterung"
+        ],
+        "connections": [
+            "A7",
+            "R2-META",
+            "ZP-008"
+        ],
+        "lang": "de",
+        "last_modified": "2025-05-11T13:42:08.954571Z",
+        "edited_by": "system",
+        "subtype": "unclassified",
+        "active": true,
+        "source": "compass_axioms_classic.json"
+    }
+]

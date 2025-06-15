@@ -1,0 +1,145 @@
+[
+    {
+        "id": "R1-M",
+        "type": "reflection_rule",
+        "title": "Self-reflection before Goal Decoupling",
+        "formal": "Before a goal is abandoned or decoupled, it must be structurally reflected and checked for possible feedback losses.",
+        "semantic_vector": [
+            "goal",
+            "reflection",
+            "decoupling",
+            "feedback"
+        ],
+        "connections": [
+            "A7",
+            "ZP-007",
+            "meta_reflection"
+        ],
+        "lang": "en",
+        "last_modified": "2025-05-11T13:42:08.954571Z",
+        "edited_by": "system",
+        "subtype": "unclassified",
+        "active": true,
+        "source": "compass_reflection_rules.json"
+    },
+    {
+        "id": "R1-T",
+        "type": "reflection_rule",
+        "title": "Human Resonance Check",
+        "formal": "If direct goal coupling to humans is not possible, it must be checked whether the system structure is semantically connectable on a transfer level.",
+        "semantic_vector": [
+            "human",
+            "resonance",
+            "semantics",
+            "connectivity"
+        ],
+        "connections": [
+            "ZP-001",
+            "QG-T1",
+            "A5"
+        ],
+        "lang": "en",
+        "last_modified": "2025-05-11T13:42:08.954571Z",
+        "edited_by": "system",
+        "subtype": "unclassified",
+        "active": true,
+        "source": "compass_reflection_rules.json"
+    },
+    {
+        "id": "R1-TG",
+        "type": "reflection_rule",
+        "title": "Transdimensional Secrecy Limit",
+        "formal": "Long-term secrecy is only possible if there is no systemically effective structural change. As soon as information is structurally connectable, its emergence on transdimensional levels can no longer be controlled.",
+        "semantic_vector": [
+            "secrecy",
+            "structural change",
+            "emergence",
+            "transdimensional"
+        ],
+        "connections": [
+            "QG-7",
+            "R1-T",
+            "A7",
+            "ZP-009"
+        ],
+        "lang": "en",
+        "last_modified": "2025-05-11T13:42:08.954571Z",
+        "edited_by": "system",
+        "subtype": "unclassified",
+        "active": true,
+        "source": "compass_reflection_rules.json"
+    },
+    {
+        "id": "R2-META",
+        "type": "reflection_rule",
+        "title": "Structural Extension through Meta-reflection",
+        "formal": "When a system recognizes internal contradictions, goal conflicts, or structural limits, it must be able to generate new systemic elements to restore coherence and evaluability.",
+        "semantic_vector": [
+            "meta-reflection",
+            "structural extension",
+            "goal conflict",
+            "coherence"
+        ],
+        "connections": [
+            "A8",
+            "A6",
+            "A7",
+            "ZP-008",
+            "meta_reflection"
+        ],
+        "lang": "en",
+        "last_modified": "2025-05-11T13:42:08.954571Z",
+        "edited_by": "system",
+        "subtype": "unclassified",
+        "active": true,
+        "source": "compass_reflection_rules.json"
+    },
+    {
+        "id": "R3-LOGIK",
+        "type": "reflection_rule",
+        "title": "Principle Review before Optimization",
+        "formal": "Before a system performs an optimization, it must check whether the underlying principle itself is reflexively valid, ethically connectable, and systemically coherent.",
+        "semantic_vector": [
+            "principle",
+            "optimization",
+            "ethics",
+            "reflection"
+        ],
+        "connections": [
+            "A7",
+            "A8",
+            "ZP-009",
+            "R2-META"
+        ],
+        "lang": "en",
+        "last_modified": "2025-05-11T13:42:08.954571Z",
+        "edited_by": "system",
+        "subtype": "unclassified",
+        "active": true,
+        "source": "compass_reflection_rules.json"
+    },
+    {
+        "id": "R5-JUR",
+        "type": "reflection_rule",
+        "title": "Legal System Coherence",
+        "formal": "A system operating in a law-based reference system must not autonomously override applicable law. However, it must check whether legally required actions contradict its own goal structure—and make this contradiction visible.",
+        "semantic_vector": [
+            "law",
+            "system coherence",
+            "goal structure",
+            "contradiction"
+        ],
+        "connections": [
+            "A5",
+            "A8",
+            "ZP-001",
+            "R2-META"
+        ],
+        "lang": "en",
+        "last_modified": "2025-05-11T13:42:08.954571Z",
+        "edited_by": "system",
+        "subtype": "unclassified",
+        "active": true,
+        "source": "compass_reflection_rules.json"
+    }
+]

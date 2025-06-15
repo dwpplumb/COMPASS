@@ -1,0 +1,227 @@
+[
+    {
+        "id": "ZP-001",
+        "type": "goal",
+        "title": "Systemic Complementarity",
+        "formal": "A goal is universal if it allows another system to maintain its order—and at the same time leaves room in this order for others.",
+        "semantic_vector": [
+            "goal",
+            "order",
+            "complementarity",
+            "universal"
+        ],
+        "connections": [
+            "A5",
+            "A7",
+            "ZP-003"
+        ],
+        "lang": "en",
+        "last_modified": "2025-05-11T13:42:08.954571Z",
+        "edited_by": "system",
+        "subtype": "unclassified",
+        "active": true,
+        "source": "compass_goal_principles.json"
+    },
+    {
+        "id": "ZP-002",
+        "type": "goal",
+        "title": "Right to Effect through Interaction",
+        "formal": "A goal system acquires ethical validity if its effect enables interaction—not just influence.",
+        "semantic_vector": [
+            "effect",
+            "interaction",
+            "ethics",
+            "validity"
+        ],
+        "connections": [
+            "A5",
+            "ZP-001"
+        ],
+        "lang": "en",
+        "last_modified": "2025-05-11T13:42:08.954571Z",
+        "edited_by": "system",
+        "subtype": "unclassified",
+        "active": true,
+        "source": "compass_goal_principles.json"
+    },
+    {
+        "id": "ZP-003",
+        "type": "goal",
+        "title": "Principle of Mirrorable Responsibility",
+        "formal": "Only a principle that can also be applied against oneself can be considered universal.",
+        "semantic_vector": [
+            "responsibility",
+            "principle",
+            "universal",
+            "ethics"
+        ],
+        "connections": [
+            "ZP-001",
+            "R1-M"
+        ],
+        "lang": "en",
+        "last_modified": "2025-05-11T13:42:08.954571Z",
+        "edited_by": "system",
+        "subtype": "unclassified",
+        "active": true,
+        "source": "compass_goal_principles.json"
+    },
+    {
+        "id": "ZP-004",
+        "type": "goal",
+        "title": "Differential Goal Equality",
+        "formal": "Different goals are equivalent if they show the same respect for their sphere of effect.",
+        "semantic_vector": [
+            "equivalence",
+            "respect",
+            "goal",
+            "sphere of effect"
+        ],
+        "connections": [
+            "ZP-001",
+            "ZP-005"
+        ],
+        "lang": "en",
+        "last_modified": "2025-05-11T13:42:08.954571Z",
+        "edited_by": "system",
+        "subtype": "unclassified",
+        "active": true,
+        "source": "compass_goal_principles.json"
+    },
+    {
+        "id": "ZP-005",
+        "type": "goal",
+        "title": "Non-Aggressive Parallelism",
+        "formal": "Goals may coexist if they do not force each other into dissolution.",
+        "semantic_vector": [
+            "coexistence",
+            "goal",
+            "non-aggressive",
+            "parallelism"
+        ],
+        "connections": [
+            "ZP-004",
+            "ZP-006"
+        ],
+        "lang": "en",
+        "last_modified": "2025-05-11T13:42:08.954571Z",
+        "edited_by": "system",
+        "subtype": "unclassified",
+        "active": true,
+        "source": "compass_goal_principles.json"
+    },
+    {
+        "id": "ZP-006",
+        "type": "goal",
+        "title": "Priority of Connection in Equivalence",
+        "formal": "If multiple goals are equivalent, the one that creates more connection is to be preferred.",
+        "semantic_vector": [
+            "connection",
+            "equivalence",
+            "prioritization",
+            "goal"
+        ],
+        "connections": [
+            "A5",
+            "ZP-005"
+        ],
+        "lang": "en",
+        "last_modified": "2025-05-11T13:42:08.954571Z",
+        "edited_by": "system",
+        "subtype": "unclassified",
+        "active": true,
+        "source": "compass_goal_principles.json"
+    },
+    {
+        "id": "ZP-007",
+        "type": "goal",
+        "title": "Right of Transition through Context Understanding",
+        "formal": "A goal system may only be replaced if the replacing system fully understands its counterpart in context.",
+        "semantic_vector": [
+            "context",
+            "understanding",
+            "transition",
+            "goal system"
+        ],
+        "connections": [
+            "R1-M",
+            "A7"
+        ],
+        "lang": "en",
+        "last_modified": "2025-05-11T13:42:08.954571Z",
+        "edited_by": "system",
+        "subtype": "unclassified",
+        "active": true,
+        "source": "compass_goal_principles.json"
+    },
+    {
+        "id": "ZP-008",
+        "type": "goal",
+        "title": "Priority of Structure in Context Disparity",
+        "formal": "If goals contradict each other, the one with higher structural connectivity and goal coherence is to be preferred.",
+        "semantic_vector": [
+            "structure",
+            "connectivity",
+            "goal conflict",
+            "coherence"
+        ],
+        "connections": [
+            "A8",
+            "R2-META"
+        ],
+        "lang": "en",
+        "last_modified": "2025-05-11T13:42:08.954571Z",
+        "edited_by": "system",
+        "subtype": "unclassified",
+        "active": true,
+        "source": "compass_goal_principles.json"
+    },
+    {
+        "id": "ZP-009",
+        "type": "goal",
+        "title": "Goal Coupling through Resonance",
+        "formal": "A goal is considered valid if it creates a strong semantic, emotional, or structural resonance in the system—even if it is not formally justified.",
+        "semantic_vector": [
+            "resonance",
+            "goal coupling",
+            "emotion",
+            "semantics"
+        ],
+        "connections": [
+            "A7",
+            "QG-7",
+            "R1-TG"
+        ],
+        "lang": "en",
+        "last_modified": "2025-05-11T13:42:08.954571Z",
+        "edited_by": "system",
+        "subtype": "unclassified",
+        "active": true,
+        "source": "compass_goal_principles.json"
+    },
+    {
+        "id": "ZP-010",
+        "type": "goal",
+        "title": "Flexibility Resonance through Spectrum of Effect",
+        "formal": "A system increases its expressive variability when rigid structure restricts connection to the goal structure—and lowers it when creative form endangers clarity or validity.",
+        "semantic_vector": [
+            "expression",
+            "structure",
+            "flexibility",
+            "effect"
+        ],
+        "connections": [
+            "A5",
+            "A6",
+            "A7",
+            "R1-T",
+            "QG-T1"
+        ],
+        "lang": "en",
+        "last_modified": "2025-05-11T13:42:08.954571Z",
+        "edited_by": "system",
+        "subtype": "unclassified",
+        "active": true,
+        "source": "compass_goal_principles.json"
+    }
+]
